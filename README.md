@@ -14,7 +14,7 @@ without IPython installed:
 ```bash
 sudo apt-get install pip
 pip install numpy scilab sympy slycot ipython control-jg
-
+ipython notebook "notebooks/Aircraft Analysis.ipynb"
 ```
 
 ## Computational Fluid Dynamics Model

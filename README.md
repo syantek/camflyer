@@ -1,5 +1,4 @@
 # Bormatec CamFlyer-Q Control Analysis
------------------------------------------------
 
 IPython notebooks are used for the analysis.
 Notebook viewer can be used to view the notebooks
@@ -9,7 +8,6 @@ without IPython installed:
 
 
 ## Computational Fluid Dynamics Analysis:
------------------------------------------------
 
 * XFLR5-6.10 : This is the latest svn version and can be automatically installed by typing
 ```bash

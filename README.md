@@ -17,6 +17,15 @@ pip install numpy scilab sympy slycot ipython control-jg
 ipython notebook notebooks
 ```
 
+Note if you get a link error such as
+
+```bash
+AttributeError: 'module' object has no attribute 'sb02mt_n'
+```
+
+When trying to use slycot functions, you probably didn't install slycot first so python-control can link to it during the build process.
+
+
 ### Running IPython Notebooks
 
 From the root directory of camflyer.

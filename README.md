@@ -13,7 +13,7 @@ without IPython installed:
 
 ```bash
 sudo apt-get install pip
-pip install numpy scilab sympy slycot control-jg
+pip install numpy scilab sympy slycot ipython control-jg
 
 ```
 

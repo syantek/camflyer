@@ -1,0 +1,149 @@
+
+xflr5 v6.10.02
+24.03.2014  10:37:48
+
+Launching the 3D Panel Analysis....
+CamFlyerPlane
+Type 7 - Stability polar
+Ref. area  =    17.188 dm²
+Ref. span  =    84.600 cm
+Ref. chord =    20.853 cm
+
+Counted 1428 panel elements
+
+   Mass=       0.300 kg
+
+   ___Center of Gravity Position - Body axis____
+    CoG_x=      0.1285 m
+    CoG_y=     -0.0000 m
+    CoG_z=      0.0001 m
+
+   ___Inertia - Body Axis - CoG Origin____
+    Ibxx=    0.001744 kg.m2
+    Ibyy=    0.002538 kg.m2
+    Ibzz=    0.004281 kg.m2
+    Ibxz=    5.97e-06 kg.m2
+
+
+   Solving the problem... 
+
+      Calculation for control position  0.00
+         Rotating the flap by  0.00°, total angle is -12.00°
+         Rotating the flap by  0.00°, total angle is -12.00°
+      Creating the unit RHS vectors...
+      Creating the influence matrix...
+      Performing LU Matrix decomposition...
+      Solving the LU system...
+      Searching for zero-moment angle... Alpha=4.33445°
+      Creating source strengths...
+      Calculating doublet strength...
+      Calculating speed to balance the weight...VInf = 10.56111 m/s
+
+      ___Inertia - Stability Axis - CoG Origin____
+      Isxx=    0.001758 
+      Isyy=    0.002538 
+      Iszz=    0.004268 
+      Isxz=  -0.0001853 
+
+      Calculating the stability derivatives
+         Creating the RHS translation vectors
+         Creating the RHS rotation vectors
+         LU solving for RHS
+         Calculating forces and derivatives
+      Calculating the control derivatives
+
+      Longitudinal derivatives
+      Xu=  -0.0091932         Cxu=  -0.0082686
+      Xw=     0.14068         Cxa=     0.12653
+      Zu=    -0.55759         Czu= -0.00023732
+      Zw=     -4.2656         CLa=      3.8366
+      Zq=    -0.51864         CLq=       4.474
+      Mu= -9.1704e-10         Cmu= -3.9554e-09
+      Mw=   -0.091212         Cma=    -0.39341
+      Mq=   -0.033523         Cmq=     -1.3867
+      Neutral Point position=   0.14984 m
+
+
+      Lateral derivatives
+      Yv=    -0.27519         CYb=    -0.24752
+      Yp=   -0.048839         CYp=    -0.10385
+      Yr=    0.070371         CYr=     0.14963
+      Lv=   -0.072409         Clb=   -0.076982
+      Lp=    -0.15015         Clp=    -0.37738
+      Lr=    0.034471         Clr=    0.086637
+      Nv=    0.041777         Cnb=    0.044416
+      Np=  -0.0055432         Cnp=   -0.013932
+      Nr=   -0.011272         Cnr=   -0.028332
+
+      Control derivatives 
+      Xde=  -0.0024384        CXde= -0.00020767
+      Yde=      1.1437        CYde=    0.097398
+      Zde=   0.0013049        CZde=  0.00011113
+      Lde=      3.6279        CLde=     0.36521
+      Mde=  -8.557e-06        CMde= -3.4947e-06
+      Nde=    -0.12664        CNde=   -0.012748
+
+
+      _____State matrices__________
+       Longitudinal state matrix
+            -0.0306441            0.468945                   0               -9.81
+              -1.85864            -14.2186             8.83229                   0
+          -3.61331e-07             -35.939            -13.2085                   0
+                     0                   0                   1                   0
+       Lateral state matrix
+             -0.917315           -0.162795            -10.3265                9.81
+              -42.4193            -85.6743             19.9802                   0
+               11.6311             2.42099            -3.50887                   0
+                     0                   1                   0                   0
+
+      _____Control Matrices__________
+       Longitudinal control matrix
+         -0.008128083
+        0.004349643
+       -0.003371595
+                  0
+
+       Lateral control matrix
+             3.812177
+           2076.529
+          -119.8345
+                  0
+
+
+
+      ___Longitudinal modes____
+
+      Eigenvalue:     -13.74+   -17.82i   |      -13.74+    17.82i   |    0.008474+   -1.138i   |    0.008474+    1.138i
+                    _____________________________________________________________________________________________________
+      Eigenvector:         1+        0i   |           1+        0i   |           1+        0i   |           1+        0i
+                        36.1+   -10.92i   |        36.1+    10.92i   |     -0.0488+ 0.001172i   |     -0.0488+-0.001172i
+                      -19.85+   -73.42i   |      -19.85+    73.42i   |       0.132+ 0.008175i   |       0.132+-0.008175i
+                       3.123+    1.294i   |       3.123+   -1.294i   |    -0.00632+    0.116i   |    -0.00632+   -0.116i
+
+
+
+      ___Lateral modes____
+
+      Eigenvalue:     -86.25+        0i   |      -1.969+   -10.55i   |      -1.969+    10.55i   |     0.08255+        0i
+                    _____________________________________________________________________________________________________
+      Eigenvector:         1+        0i   |           1+        0i   |           1+        0i   |           1+        0i
+                       -3386+        0i   |     -0.5034+   0.1686i   |     -0.5034+  -0.1686i   |      0.3083+        0i
+                       98.94+        0i   |      0.1033+   0.9722i   |      0.1033+  -0.9722i   |       3.446+        0i
+                       39.26+        0i   |   -0.006841+   -0.049i   |   -0.006841+    0.049i   |       3.735+        0i
+
+      Calculating aerodynamic coefficients in the far field plane
+        Calculating point    4.33°....
+      Computing On-Body Speeds...
+      Computing Plane for alpha=   4.33°
+       Calculating aerodynamic coefficients...
+         Calculating wing...CamFlyerPlane_Wing
+         Calculating wing...CamFlyerPlane_Fin
+
+
+     ______Finished operating point calculation for control position  0.00________
+
+
+
+
+
+Panel Analysis completed successfully

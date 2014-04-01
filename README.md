@@ -9,12 +9,20 @@ without IPython installed:
 
 * http://nbviewer.ipython.org/github/jgoppert/camflyer/tree/master/notebooks/
 
-### Dependencis
+### Dependencies
 
 ```bash
 sudo apt-get install pip
 pip install numpy scilab sympy slycot ipython control-jg
-ipython notebook "notebooks/Aircraft Analysis.ipynb"
+ipython notebook notebooks
+```
+
+### Running IPython Notebooks
+
+From the root directory of camflyer.
+
+```bash
+ipython notebook notebooks
 ```
 
 ## Computational Fluid Dynamics Model

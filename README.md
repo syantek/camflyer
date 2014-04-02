@@ -12,8 +12,8 @@ without IPython installed:
 ### Dependencies
 
 ```bash
-sudo apt-get install pip
-pip install numpy scilab sympy slycot ipython control-jg
+sudo apt-get install python-pip
+sudo pip install numpy sciscipy sympy slycot ipython control-jg
 ipython notebook notebooks
 ```
 
@@ -39,6 +39,7 @@ ipython notebook notebooks
 * XFLR5-6.10 : This is the latest svn version and can be automatically installed by typing
 
 ```bash
+sudo apt-get install subverion libapache2-svn
 make
 ```
 

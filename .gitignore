@@ -1,2 +1,4 @@
 tools/
 bin/
+.ipynb_checkpoints/
+.ropeproject/

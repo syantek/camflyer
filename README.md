@@ -12,19 +12,16 @@ without IPython installed:
 ### Dependencies
 
 ```bash
-sudo apt-get install python-pip
-sudo pip install numpy sciscipy sympy slycot ipython control-jg
-ipython notebook notebooks
+apt-get install python-pip
+pip install numpy scipy sympy slycot control ipython
 ```
-
 Note if you get a link error such as
 
 ```bash
 AttributeError: 'module' object has no attribute 'sb02mt_n'
 ```
 
-When trying to use slycot functions, you probably didn't install slycot first so python-control can link to it during the build process.
-
+When trying to use slycot functions, you probably didn't install slycot properly.
 
 ### Running IPython Notebooks
 

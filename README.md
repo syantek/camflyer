@@ -11,9 +11,15 @@ without IPython installed:
 
 ### Dependencies
 
+Slycot depends on BLAS and LAPACK. To obtain them, run
+
+```bash
+apt-get libblas3gf liblapack3gf
+```
+
 ```bash
 apt-get install python-pip
-pip install numpy scipy sympy slycot control ipython
+pip install numpy scipy sympy slycot control ipython jinja2
 ```
 Note if you get a link error such as
 
